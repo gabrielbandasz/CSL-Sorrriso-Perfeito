@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorriso Perfeito | Consultório Dentário</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#22C55E">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <header>
+    <div class="logo">
+        <img src="interatividade/assets/img/logo.png" alt="Logo">
+    </div>
+<button class="menu-toggle" id="menu-toggle">
+    <i class="fas fa-bars"></i>
+</button>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="header-right">
+        <div class="weather-box">
+           <img id="weather-icon" src="" alt="Clima">
+    <div>
+        <p id="weather-temp">--°C</p>
+        <p id="weather-desc">Carregando...</p>
+    </div>-
+        </div>
+
+        <button id="toggle-theme" class="theme-btn">🌙</button>        
+    </div>
+
+</header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+
+            <div class="home-text">
+                <h1>Seu sorriso merece o <span>melhor cuidado</span></h1>
+                <p>Na Sorriso Perfeito, oferecemos tratamentos modernos, atendimento humanizado e tecnologia de ponta
+                    para transformar seu sorriso.</p>
+                <a href="#contato" class="btn">Agendar Consulta</a>
+            </div>
+
+            <div class="home-content">
+                <div class="home-text"></div>
+                <div class="Dentista">
+                    <img src="interatividade/assets/img/imgHome.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos reveal">
+        <h2>Nossos <span>Serviços</span></h2>
+
+        <div class="servicos-container">
+
+            <!-- CARD 1 -->
+            <div class="servico-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Clareamento Dental</h3>
+                        <p>Deixe seu sorriso mais branco e iluminado.</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Tratamento estético seguro que remove manchas e devolve o brilho natural dos dentes.</p>
+                        <a href="#" class="btn-card">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="servico-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Ortodontia</h3>
+                        <p>Alinhamento dental com conforto e eficiência.</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Correção da posição dos dentes com aparelhos modernos e discretos.</p>
+                        <a href="#" class="btn-card">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="servico-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Implantes Dentários</h3>
+                        <p>Recupere a função e a estética do seu sorriso.</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Substituição segura de dentes perdidos com tecnologia avançada.</p>
+                        <a href="#" class="btn-card">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="servico-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Limpeza e Profilaxia</h3>
+                        <p>Prevenção e cuidado para sua saúde bucal.</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Remoção de tártaro e placa bacteriana para manter seus dentes saudáveis.</p>
+                        <a href="#" class="btn-card">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="servico-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Facetas em Porcelana</h3>
+                        <p>Transformação estética do sorriso.</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Lâminas finas que corrigem imperfeições e proporcionam um sorriso harmônico.</p>
+                        <a href="#" class="btn-card">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="servico-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Odontopediatria</h3>
+                        <p>Cuidado especializado para crianças.</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Atendimento humanizado para garantir conforto e segurança aos pequenos.</p>
+                        <a href="#" class="btn-card">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= GALERIA ================= -->
+    <section id="galeria" class="galeria">
+        <h2>Galeria de <span>Sorrisos</span></h2>
+
+        <div class="carousel">
+            <button class="prev" aria-label="Imagem anterior">&#10094;</button>
+
+            <div class="carousel-track">
+                <img src="interatividade/assets/img/sorriso1.jpg" alt="Sorriso 1">
+                <img src="interatividade/assets/img/sorriso2.jpg" alt="Sorriso 2">
+                <img src="interatividade/assets/img/sorriso3.jpg" alt="Sorriso 3">
+                <img src="interatividade/assets/img/sorriso4.jpg" alt="Sorriso 4">
+            </div>
+
+            <button class="next" aria-label="Próxima imagem">&#10095;</button>
+        </div>
+    </section>
+
+<!-- ================= Depoimentos ================= -->
+    <section id="depoimentos" class="depoimentos reveal">
+        <h2>Depoimentos </h2>
+        <br>
+        <div class="depoimentos-container">
+            <div class="depoimento-card">
+                <img src="interatividade/assets/img/usuario_SP.png" alt="Usuário" class="usuario-icon">
+                <p>"Atendimento incrível e resultado perfeito! Meu sorriso mudou completamente."</p>
+                <h4>- Ana Carolina</h4>
+            </div>
+
+            <div class="depoimento-card">
+                <img src="interatividade/assets/img/usuario_SP.png" alt="Usuário" class="usuario-icon">
+                <p>"Profissionais muito atenciosos e tecnologia moderna. Recomendo demais!"</p>
+                <h4>- Carlos Lima</h4>
+            </div>
+
+            <div class="depoimento-card">
+                <img src="interatividade/assets/img/usuario_SP.png" alt="Usuário" class="usuario-icon">
+                <p>"Ambiente confortável e tratamento excelente. Voltarei com certeza."</p>
+                <h4>- Maria Silva</h4>
+            </div>
+
+            <div class="depoimento-card">
+                <img src="interatividade/assets/img/usuario_SP.png" alt="Usuário" class="usuario-icon">
+                <p>"Atendimento incrível e resultado perfeito! Meu sorriso mudou completamente."</p>
+                <h4>- Felipe Augusto</h4>
+            </div>
+
+            <div class="depoimento-card">
+                <img src="interatividade/assets/img/usuario_SP.png" alt="Usuário" class="usuario-icon">
+                <p>"Profissionais muito atenciosos e tecnologia moderna. Recomendo demais!"</p>
+                <h4>- Pedro Geromel</h4>
+            </div>
+
+            <div class="depoimento-card">
+                <img src="interatividade/assets/img/usuario_SP.png" alt="Usuário" class="usuario-icon">
+                <p>"Ambiente confortável e tratamento excelente. Voltarei com certeza."</p>
+                <h4>- Bolívar</h4>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= CONTATO ================= -->
+    <section id="contato" class="contato reveal">
+        <h2>Entre em Contato</h2>
+
+       <form id="form-contato">
+
+    <input type="text" id="nome" placeholder="Nome" required>
+    <input type="email" id="email" placeholder="Email" required>
+
+    <input type="text" id="cep" placeholder="CEP" maxlength="9" required>
+
+    <input type="text" id="rua" placeholder="Rua">
+    <input type="text" id="bairro" placeholder="Bairro">
+    <input type="text" id="cidade" placeholder="Cidade">
+    <input type="text" id="estado" placeholder="Estado">
+
+    <textarea id="mensagem" placeholder="Mensagem" required></textarea>
+
+    <button type="submit" class="btn">Enviar</button>
+
+</form>
+
+<div id="mensagemSucesso" class="mensagem-sucesso">
+    ✅ Mensagem enviada com sucesso!
+</div>
+
+<p id="mensagemErro" class="erro"></p>
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-info">
+                <h3>Sorriso Perfeito</h3>
+                <p>Rua das Flores, 123 - Centro</p>
+                <p>Telefone: (51) 99999-9999</p>
+                <p>Email: contato@sorrisoperfeito.com</p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Redes Sociais</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Sorriso Perfeito - Todos os direitos reservados
+        </p>
+
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
